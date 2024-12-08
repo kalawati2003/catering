@@ -1,0 +1,10 @@
+html,body{   
+    height: 100%;
+    margin: 0;
+}
+
+.main{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100px 1fr 30px;        
+}
