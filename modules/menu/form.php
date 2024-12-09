@@ -48,7 +48,7 @@ if(isset($_POST['item']))
     <label for="status" >Status</label>
         <select name="status" class="form-select">
             <option value="yes">Yes</option>
-            <option value="no" <?=($info['status']=='no')? 'selected':'';?>>No</option>
+            <option value="no" <?=(($info['status']??"")=='no')?'selected':'';?>>No</option>
         </select>
     </div>
     <div class="mb-3" >
