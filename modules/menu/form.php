@@ -12,6 +12,7 @@ if(isset($_POST['item']))
         'status'=>$_POST['status']
     ];
     if($obj->save($info,$uid)){
+        Session::set('getdata',"data ".($uid?"updated":"saved")." successfully");
     redirect("menu");
    }
    else

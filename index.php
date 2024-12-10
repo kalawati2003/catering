@@ -1,4 +1,6 @@
 <?php
+require_once "library/Session.php";
+Session::init();
 define('ROOT','http://localhost/catring/');
 require_once "library/redirect.php";
 require_once "library/db.php";
