@@ -8,3 +8,30 @@ html,body{
     display: grid;
     grid-template-rows: 100px 1fr 30px;        
 }
+ .pagetitle{
+    padding: 5px;
+    text-align:center;
+    font-size:2em;
+    font-weight:bold;
+    color:#336;
+    text-shadow: 2px 1px 3px #000;
+    border-bottom: 1px solid #ccf;
+    margin-bottom: 5px;
+    width: 190px;
+    margin-left:244px ;
+}
+.pagetitle > span {
+    color:#017f35;
+}
+ label{
+    font-weight:700;
+ }
+.cont
+{
+    margin-top: 10px;
+    padding: 20px;
+    width: 58%;
+    margin: 10px auto;
+    box-shadow: 1px 1px 5px #12f;
+    border-radius: 7px;
+}

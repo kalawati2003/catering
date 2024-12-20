@@ -2,9 +2,11 @@
 require_once "library/Session.php";
 Session::init();
 define('ROOT','http://localhost/catring/');
+define('BNO',2);
+define('TIME',10);
 require_once "library/redirect.php";
 require_once "library/db.php";
-$module = "booking";
+$module = "users";
 $file = "index";
 $uid = null;
 $url=$_GET['url']??null;
